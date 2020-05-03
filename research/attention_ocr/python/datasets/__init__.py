@@ -13,8 +13,8 @@
 # limitations under the License.
 # ==============================================================================
 #
-import fsns
-import fsns_test
-import number_plates
+import .fsns
+import .fsns_test
+import .number_plates
 
 __all__ = [fsns, fsns_test, number_plates]
