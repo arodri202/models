@@ -1,0 +1,6 @@
+/var/spool/gridengine/execd/dblade66/job_scripts/2313798: line 9: $: command not found
+/var/spool/gridengine/execd/dblade66/job_scripts/2313798: line 12: /course/cs1430/tf_gpu/bin/activate: Permission denied
+Traceback (most recent call last):
+  File "train.py", line 23, in <module>
+    import tensorflow as tf
+ImportError: No module named tensorflow
