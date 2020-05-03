@@ -47,7 +47,7 @@ def define():
   flags.DEFINE_integer('crop_height', None,
                        'Height of the central crop for images.')
 
-  flags.DEFINE_string('train_log_dir', '/Users/angel/Documents/models/research/attention_ocr/python/logs',
+  flags.DEFINE_string('train_log_dir', '/home/arodri36/course/cs1430/models/research/attention_ocr/python/logs',
                       'Directory where to write event logs.')
 
   flags.DEFINE_string('dataset_name', 'number_plates',
@@ -59,7 +59,7 @@ def define():
   flags.DEFINE_string('dataset_dir', None,
                       'Dataset root folder.')
 
-  flags.DEFINE_string('checkpoint', '/Users/angel/Documents/models/research/attention_ocr/python/logs/model.ckpt-3000',
+  flags.DEFINE_string('checkpoint', '/home/arodri36/course/cs1430/models/research/attention_ocr/python/logs/model.ckpt-3000',
                       'Path for checkpoint to restore weights from.')
 
   flags.DEFINE_string('master',
